@@ -9,13 +9,13 @@
 
   
 
-  <title>4. Forecasting</title>
+  <title>4. Conclusion</title>
 
   
   <meta name="author" content="Eloi Garandel, Antoine Daeniker, Kilian d'Eternod & Rafael Mozo">
   
 
-  <meta name="description" content="Predicting behavior">
+  <meta name="description" content="What to remember ?">
 
   
 
@@ -74,8 +74,8 @@
 
   
   <meta property="og:site_name" content="PinaColADA">
-  <meta property="og:title" content="4. Forecasting">
-  <meta property="og:description" content="Predicting behavior">
+  <meta property="og:title" content="4. Conclusion">
+  <meta property="og:description" content="What to remember ?">
 
   
   <meta property="og:image" content="https://eloigrndl.github.io/assets/img/pina.jpg">
@@ -84,9 +84,9 @@
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Eloi Garandel, Antoine Daeniker, Kilian d'Eternod & Rafael Mozo">
-  <meta property="og:article:published_time" content="2000-01-04T00:00:00-05:00">
-  <meta property="og:url" content="https://eloigrndl.github.io/2000-01-04-forecasting/">
-  <link rel="canonical" href="https://eloigrndl.github.io/2000-01-04-forecasting/">
+  <meta property="og:article:published_time" content="2022-12-23T00:00:00-05:00">
+  <meta property="og:url" content="https://eloigrndl.github.io/2022-12-23-conclusion/">
+  <link rel="canonical" href="https://eloigrndl.github.io/2022-12-23-conclusion/">
   
 
   
@@ -95,8 +95,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="4. Forecasting">
-  <meta property="twitter:description" content="Predicting behavior">
+  <meta property="twitter:title" content="4. Conclusion">
+  <meta property="twitter:description" content="What to remember ?">
 
   
   <meta name="twitter:image" content="https://eloigrndl.github.io/assets/img/pina.jpg">
@@ -161,15 +161,15 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>4. Forecasting</h1>
+          <h1>4. Conclusion</h1>
           
             
-              <h2 class="post-subheading">Predicting behavior</h2>
+              <h2 class="post-subheading">What to remember ?</h2>
             
           
 
           
-            <span class="post-meta">Posted on January 4, 2000</span>
+            <span class="post-meta">Posted on December 23, 2022</span>
             
             
           
@@ -190,34 +190,16 @@
        
 
       <article role="main" class="blog-post">
-        <p align="justify">To test the predictability of the statistics of a channel, John wants to do some regression to try to predict the last segment of every time serie of channels. The progression of those indicators does not appear to be very linear but he has heard of a great library called XGBoost that uses gradient boosting. It can do regression and he has heard that it could be used for time series forecasting so he wants to try it on the three base indicators of a channel, its views, number of subscribers and videos. </p>
-
-<p align="justify">Unfortunately, training the machine learning model on the whole dataset takes way too much time, but as he is only doing this as a proof of concept he decides to only run the model on a sample of channels. If this approach is successful, he is decided to run the model on the full dataset on a cluster, as the library supports Hadoop and Spark, but this small scale will suffice for now. </p>
-
-<p align="justify">Like we did in clustering, exponential smoothing is used to remove the oscillations and make the time series easier to interpret visually. The indexes are changed to work with XGBoost and John runs it to try to predict the last quarter of the datapoints and plot the predicted results compared to the real evolution of the statistics. </p>
-
-<iframe src="/assets/plots/forecasting/forecast_views.png" height="500" width="850" frameBorder="0"></iframe>
-
-<iframe src="/assets/plots/forecasting/forecast_subscribers.png" height="500" width="850" frameBorder="0"></iframe>
-
-<iframe src="/assets/plots/forecasting/forecast_videos.png" height="500" width="850" frameBorder="0"></iframe>
-
-<h1 id="summary">Summary</h1>
-
-<p align="justify">As we can see, John has as little success with the forecasting as he had with the clustering. Even if by chance sometimes the model manages to follow the reality, most often it is flat out wrong. It seems like the best guess is generally to just pick the last known value, the model rarely deviates much from it. This is typical of time series that are too unpredictable and chaotic. It could also be from a lack of data or maybe another type of model could perform better due to the complexity of the time series data but most probably forecasting is just not possible on this kind of data. At this point, John gives up on this idea. </p>
+        <p align="justify">John tried several methods to achieve his goal of predicting time series and knowing what the outcome of his choices could be for growing his channel before doing anything. The analysis of outliers and clustering did not provide him with the answers he desired and did not aid him in his mission. Nonetheless, he discovered other intriguing results on YouTube channel series behavior that could be useful in his quest to grow his channel. He is still a young data analyst who needs more time and experience to achieve such difficult goals that, according to current machine learning research, are difficult to achieve.</p>
 
       </article>
 
       <ul class="pagination blog-pager">
         
         <li class="page-item previous">
-          <a class="page-link" href="/2000-01-03-clustering/" data-toggle="tooltip" data-placement="top" title="3. Clustering">&larr; Previous Part</a>
+          <a class="page-link" href="/2022-12-22-forecasting/" data-toggle="tooltip" data-placement="top" title="4. Forecasting">&larr; Previous Part</a>
         </li>
         
-        
-        <li class="page-item next">
-          <a class="page-link" href="/2000-01-05-conclusion/" data-toggle="tooltip" data-placement="top" title="4. Conclusion">Next Part &rarr;</a>
-        </li>
         
       </ul>
 

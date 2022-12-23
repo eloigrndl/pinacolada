@@ -15,9 +15,9 @@
           What to remember ? - 
           John tried several methods to achieve his goal of predicting time series and knowing what the outcome of his choices could be for growing his channel before doing anything. The analysis of outliers and clustering did not provide him with the answers he desired and did not aid him in...
         </description>
-        <pubDate>Wed, 05 Jan 2000 00:00:00 -0500</pubDate>
-        <link>https://eloigrndl.github.io/2000-01-05-conclusion/</link>
-        <guid isPermaLink="true">https://eloigrndl.github.io/2000-01-05-conclusion/</guid>
+        <pubDate>Fri, 23 Dec 2022 00:00:00 -0500</pubDate>
+        <link>https://eloigrndl.github.io/2022-12-23-conclusion/</link>
+        <guid isPermaLink="true">https://eloigrndl.github.io/2022-12-23-conclusion/</guid>
       </item>
     
       <item>
@@ -26,9 +26,9 @@
           Predicting behavior - 
           To test the predictability of the statistics of a channel, John wants to do some regression to try to predict the last segment of every time serie of channels. The progression of those indicators does not appear to be very linear but he has heard of a great library called...
         </description>
-        <pubDate>Tue, 04 Jan 2000 00:00:00 -0500</pubDate>
-        <link>https://eloigrndl.github.io/2000-01-04-forecasting/</link>
-        <guid isPermaLink="true">https://eloigrndl.github.io/2000-01-04-forecasting/</guid>
+        <pubDate>Thu, 22 Dec 2022 00:00:00 -0500</pubDate>
+        <link>https://eloigrndl.github.io/2022-12-22-forecasting/</link>
+        <guid isPermaLink="true">https://eloigrndl.github.io/2022-12-22-forecasting/</guid>
       </item>
     
       <item>
@@ -37,9 +37,9 @@
           Grouping channels into profiles - 
           Preparing the data Having seen that ponctual events don&apos;t have a significant importance in the evolution of its channel, John now wants to know if there are general trends in the growth of a channel basic statistics, views, subscribers and videos. He wants to try to cluster the channels into...
         </description>
-        <pubDate>Mon, 03 Jan 2000 00:00:00 -0500</pubDate>
-        <link>https://eloigrndl.github.io/2000-01-03-clustering/</link>
-        <guid isPermaLink="true">https://eloigrndl.github.io/2000-01-03-clustering/</guid>
+        <pubDate>Wed, 21 Dec 2022 00:00:00 -0500</pubDate>
+        <link>https://eloigrndl.github.io/2022-12-21-clustering/</link>
+        <guid isPermaLink="true">https://eloigrndl.github.io/2022-12-21-clustering/</guid>
       </item>
     
       <item>
@@ -48,9 +48,9 @@
           Linear Regression - 
           First visualization John has an idea, but he wants to make sure that it will work. His idea is to hit one big home run to propel his channel to the top. He wants to make a big video where he will spend a large amount of money to gain...
         </description>
-        <pubDate>Sun, 02 Jan 2000 00:00:00 -0500</pubDate>
-        <link>https://eloigrndl.github.io/2000-01-02-outliers/</link>
-        <guid isPermaLink="true">https://eloigrndl.github.io/2000-01-02-outliers/</guid>
+        <pubDate>Tue, 20 Dec 2022 00:00:00 -0500</pubDate>
+        <link>https://eloigrndl.github.io/2022-12-20-outliers/</link>
+        <guid isPermaLink="true">https://eloigrndl.github.io/2022-12-20-outliers/</guid>
       </item>
     
       <item>
@@ -59,9 +59,9 @@
           Data exploration - 
           John is a young data scientist who thoroughly enjoys the Applied Data Analysis course. He also has another passion in life - Youtube. He wants to start his own adventure and turn his passion into a living. Before embarking on his journey, John wishes to conduct an analysis of YouTube...
         </description>
-        <pubDate>Sat, 01 Jan 2000 00:00:00 -0500</pubDate>
-        <link>https://eloigrndl.github.io/2000-01-01-data-exploration/</link>
-        <guid isPermaLink="true">https://eloigrndl.github.io/2000-01-01-data-exploration/</guid>
+        <pubDate>Mon, 19 Dec 2022 00:00:00 -0500</pubDate>
+        <link>https://eloigrndl.github.io/2022-12-19-data-exploration/</link>
+        <guid isPermaLink="true">https://eloigrndl.github.io/2022-12-19-data-exploration/</guid>
       </item>
     
   </channel>
