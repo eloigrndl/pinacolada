@@ -1,4 +1,4 @@
-# pinacolada
+# pinacolADA
 
 Eloi Garandel, Kilian d'Eternod & Antoine Daeniker
 
