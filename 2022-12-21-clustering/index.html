@@ -58,9 +58,9 @@
 
   
     
-      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+      <link rel="stylesheet" href="/pinacolada/assets/css/bootstrap-social.css">
     
-      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+      <link rel="stylesheet" href="/pinacolada/assets/css/beautifuljekyll.css">
     
   
 
@@ -124,7 +124,7 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/aboutus">About Us</a>
+            <a class="nav-link" href="/pinacolada/aboutus">About Us</a>
           </li></ul>
   </div>
 
@@ -134,7 +134,7 @@
     <div class="avatar-container">
       <div class="avatar-img-border">
         <a href="https://eloigrndl.github.io/pinacolada/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/pina.jpg" />
+          <img alt="Navigation bar avatar" class="avatar-img" src="/pinacolada/assets/img/pina.jpg" />
         </a>
       </div>
     </div>
@@ -205,17 +205,17 @@
 <p align="justify">For this clustering tasks, John decides to use the delta-indicators because, as they are not cumulative, the differences between them are easier to see even if they are harder to explain. He starts the analysis with the number of delta-views.</p>
 
 <figure>
-  <img src="/assets/plots/clustering/views.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/clustering/views.png" style="width:120%" />
 </figure>
 
 <p align="justify">As we can, the data is not partitioned equally in the clusters at all. On the contrary, there appear to be one large cluster that concentrate almost all the time series. Before drawing any conclusions, John repeats this clustering approach on the delta-subscribers and delta-videos.</p>
 
 <figure>
-  <img src="/assets/plots/clustering/subs.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/clustering/subs.png" style="width:120%" />
 </figure>
 
 <figure>
-  <img src="/assets/plots/clustering/videos.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/clustering/videos.png" style="width:120%" />
 </figure>
 
 <p align="justify">The results are similar across all statistics analyzed. One big cluster and so no significant results. John, unhappy with the results, thinks about why clustering would fail. He tries other clustering algorithms but he still get the same results. He also tries to discard the low-end and high-end data, for example the lowest and highest quartile in a statistic, but it doesn't change the results either.</p>
@@ -225,13 +225,13 @@
 <p align="justify">At this point of the analysis, John thinks that maybe trying to cluster all of the data at once is too difficult. There is too much noise and that might explain why he gets those kinds of results. As different communities act and use the platform very differently maybe it would be better to differentiate them. His channel focuses on the category "Howto &amp; Style" so why should he bother with the rest ? He decides to retry his clustering approach but limiting it to only the channel making videos of the category "Howto &amp; Style" to see if he gets better results.</p>
 
 <figure>
-  <img src="/assets/plots/clustering/cat_views.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/clustering/cat_views.png" style="width:120%" />
 </figure>
 <figure>
-  <img src="/assets/plots/clustering/cat_subs.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/clustering/cat_subs.png" style="width:120%" />
 </figure>
 <figure>
-  <img src="/assets/plots/clustering/cat_videos.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/clustering/cat_videos.png" style="width:120%" />
 </figure>
 
 <p align="justify">But as you can see on the above plots, focusing on only one category doesn't help with the clustering either. There is still an extreme distribution between clusters with one of them concentrating almost all the data.</p>
@@ -325,7 +325,7 @@
   
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
     
-      <script src="/assets/js/beautifuljekyll.js"></script>
+      <script src="/pinacolada/assets/js/beautifuljekyll.js"></script>
     
   
 

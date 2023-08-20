@@ -58,9 +58,9 @@
 
   
     
-      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+      <link rel="stylesheet" href="/pinacolada/assets/css/bootstrap-social.css">
     
-      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+      <link rel="stylesheet" href="/pinacolada/assets/css/beautifuljekyll.css">
     
   
 
@@ -124,7 +124,7 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/aboutus">About Us</a>
+            <a class="nav-link" href="/pinacolada/aboutus">About Us</a>
           </li></ul>
   </div>
 
@@ -134,7 +134,7 @@
     <div class="avatar-container">
       <div class="avatar-img-border">
         <a href="https://eloigrndl.github.io/pinacolada/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/pina.jpg" />
+          <img alt="Navigation bar avatar" class="avatar-img" src="/pinacolada/assets/img/pina.jpg" />
         </a>
       </div>
     </div>
@@ -197,17 +197,17 @@
 <p align="justify">At the same time, he can detect if having bad weeks with fewer views can also have an influence. Using his result, he can then compare high and low outliers and see if there are any patterns to predict what will happen with those outliers' delta_views.</p>
 
 <figure>
-  <img src="/assets/plots/outliers/slops_examples.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/slops_examples.png" style="width:120%" />
 </figure>
 
 <p align="justify">Now he sees a potential influence in some graphs, like the ones in the second row and fourth column. It was his idea to deal with this outlier and bring them back around the curve.</p>
 
 <figure>
-  <img src="/assets/plots/outliers/outlier_detection.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/outlier_detection.png" style="width:120%" />
 </figure>
 
 <figure>
-  <img src="/assets/plots/outliers/outlier_removed.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/outlier_removed.png" style="width:120%" />
 </figure>
 
 <p align="justify">He stated unequivocally that there could be an influence. He intends to delve into the analysis of those view slopes, as planned.</p>
@@ -219,13 +219,13 @@
 <p align="justify">First, he wants to get an idea of the difference in slopes of distribution. How much do outliers influence channels? How much do they not have? </p>
 
 <figure>
-  <img src="/assets/plots/outliers/allchan_dviews_distr.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/allchan_dviews_distr.png" style="width:120%" />
 </figure>
 
 <p align="justify">The plot he sees shows a kind of exponential distribution with a large plateau at the beginning. His opinion is to say that few channels are affected by outliers. But what he really wants to know is if there is any difference between falling channels and rising channels.</p>
 
 <figure>
-  <img src="/assets/plots/outliers/allchan_dviews_sep.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/allchan_dviews_sep.png" style="width:120%" />
 </figure>
 
 <p align="justify">Hmm.. The distribution is very chaotic, and there is not much difference between positive and negative slopes. Moreover, there is no particular pattern to extract from this.</p>
@@ -235,13 +235,13 @@
 <h2 id="all-channels-delta_subs">All channels delta_subs</h2>
 
 <figure>
-  <img src="/assets/plots/outliers/allchan_dsubs_distr.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/allchan_dsubs_distr.png" style="width:120%" />
 </figure>
 
 <p align="justify">Interestingly, the distribution looks the same. So, also concerning delta_subs, outliers seem not to influence the curve. Let's try again and separate the positive and negative slopes.</p>
 
 <figure>
-  <img src="/assets/plots/outliers/allchan_dsubs_sep.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/allchan_dsubs_sep.png" style="width:120%" />
 </figure>
 
 <p align="justify">"Ah, ah!" he thinks. The distribution appears to be chaotic, but an intriguing fact is that channels appear to have more falling delta-subs curves than rising ones. This could be due to the fact that a subscriber can only subscribe once. In comparison, a single person can watch the video an infinite number of times. So after some time, the curve of the subscriber will arrive at a plateau since there is no infinite number of humans.</p>
@@ -253,7 +253,7 @@
 <h2 id="howto--style-delta_views">Howto &amp; Style delta_views</h2>
 
 <figure>
-  <img src="/assets/plots/outliers/hts_dviews_distr.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/hts_dviews_distr.png" style="width:120%" />
 </figure>
 
 <p align="justify">The distribution is very similar compare to the graph with all youtube channels. So channel delta_views's curve behavior in the Howto &amp; Style categorie models well the overall behavior of all youtube channels according to this indicator(delta_view). But as John see the seperate graph, he change his mind.</p>
@@ -269,11 +269,11 @@
 <h2 id="howto--style-delta_subs">Howto &amp; Style delta_subs</h2>
 
 <figure>
-  <img src="/assets/plots/outliers/hts_dsubs_distr.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/hts_dsubs_distr.png" style="width:120%" />
 </figure>
 
 <figure>
-  <img src="/assets/plots/outliers/hts_dsubs_sep.png" style="width:120%" />
+  <img src="/pinacolada/assets/plots/outliers/hts_dsubs_sep.png" style="width:120%" />
 </figure>
 
 <p align="justify">Those graphs he produced look basically the same as the previous ones. So he came to the conclusion, according to his analysis, that by doing so, there are no identifiable patterns between negative and positive slopes.</p>
@@ -365,7 +365,7 @@
   
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
     
-      <script src="/assets/js/beautifuljekyll.js"></script>
+      <script src="/pinacolada/assets/js/beautifuljekyll.js"></script>
     
   
 
